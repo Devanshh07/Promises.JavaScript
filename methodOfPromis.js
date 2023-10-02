@@ -32,7 +32,8 @@ savedata("data")
     console.log("Success : ", result);
 })
 .catch((Error)=>{
-    console.log("Fail :" , Error); // error => promis rejected
+    console.log("Fail :" , Error); // error => promis rejectedcd
+    
     console.log("Rejected!");
 })
 // savedata("Data")
